@@ -48,7 +48,7 @@ import com.mrd.bitlib.util.HashUtils;
 
 public class StandardTransactionBuilder {
 
-   public static final long MINIMUM_MINER_FEE = 10000;
+   public static final long MINIMUM_MINER_FEE = 0;
    public static final long MINIMUM_OUTPUT_VALUE = 5430;
 
    public static class InsufficientFundsException extends Exception {
